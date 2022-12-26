@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family:semi-bold ;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-weight: bold;
+   
+}
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/hero-mobile@2.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 900px) {  
+    #main
+    {
+        background-image: url(images/hero.avif);
+    }
+}
+
+.nav-link{
+    font-family: semi-bold;
+    color: rgb(51,51,51);
+    font-size: 14px;
+}
+.container-fluid .navbar-toggler{
+    border: none;
+}
+#menu
+{
+    font-family:semi-bold ;
+    
+}
+#title{
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(51,51,51);
+    margin-top: 10px;
+    text-align: center;
+}
+.mainbottom-side{
+    color: white;
+}
+.para-top{
+    font-size:26px;
+    font-family: semi-bold;
+    
+    margin-bottom: 0px;
+
+}
+.para-bot{
+    font-size: 13px;
+    font-family: semi-bold;
+}
+#cont{
+    max-width: 700px ;
+    
+}
+.reserve-btn{
+    width: 100%;
+    background-color: transparent;
+    border: 3px solid white;
+    
+}
+#arrow-btn{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+
+}
+.arrow-down{
+    height: 20px;
+    
+}
+
+#video-table{
+    text-align: center;
+   
+}
+#video-table iframe{
+    width: 98vw;
+    height: 410px;
+    pointer-events: none
+}
+
+@media only screen and (min-width: 700px) {  
+    #video-table iframe{
+        width: 98vw;
+        height: 500px;
+    }
+}
+.table{
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-family: semi-bold;
+}
+
+@media only screen and (min-width: 767px) {  
+    .table{
+        width: 600px;
+        margin: auto;
+        color: white;
+        font-family: semi-bold;
+    }
+}
+thead th{
+   
+    text-align: left;
+    
+    
+}
+.table-left{
+    
+    
+    text-align: left;
+}
+.table-right{
+    text-align: right;
+    
+}
+.last-col{
+border: 0ch;
+}
+.table-wrap{
+    margin-bottom: 150px;
+}
+#main-2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/back-mobile@2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 550px) {  
+    #main-2{
+        background-image: url("images/back.jpg");
+        height: 100vh;
+    width: 100vw;
+}
+}
+#main-2{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+#details-2{
+    margin-top: 450px;
+}
+#details-2 h3{
+    font-family: semi-bold;
+}
+#main-3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#main-3 .figure{
+max-width: 90%;
+}
+
+#main-3 .figure-caption{
+    color: white;
+    margin-top:15px;
+}
+.sp-text{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: semi-bold;
+}
+.figure-caption{
+    font-size: 16px;
+    font-family: semi-bold;
+}
+#glassroof{
+    height: 120vh;
+    width: 100%;
+    background-image: url(images/top.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+#final{
+    height: 195vh;
+    width: 100%;
+
+}
+#last-video{
+    height: 580px;
+    width: 100%;
+
+}
+#final {
+    margin-top: 20px;
+    color: white;
+}
+.text{
+   
+    text-align: center;
+}
+#watch{
+text-align: center;
+}
+
+.text-center{
+    display: flex;
+    align-items: flex-end;
+}
+.list-inline{
+    margin-top: 390px;
+}
+#final .last-para{
+   text-align: center;
+   margin-top: -100px;
+   
+}
+@media only screen and (min-width: 768px) {  
+    #final .last-para{
+       
+        margin-top: -50px;
+   
+}
+}
+@media only screen and (min-width: 990px) {  
+    #final .last-para{
+       
+        margin-top: 3px;
+   
+}
+}
+.vertical-line-final{
+    margin-top: 50px;
+    height: 200px;
+    width: 500px;
+   
+}
+#vertical-line-final{
+  width: 1px;
+  height: 200px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#btn-rows{
+margin: auto;
+width: 210px;
+}
+
+#btn-container{
+ width: 210px;
+margin-top: 16px;
+ 
+}
+#btn-col{
+    width: 200px;
+    
+}
+#reserve-btn{
+    width: 180px;
+    background-color: transparent;
+    
+    border: 2px solid white;
+    
+}
+#final-paragraph{
+    width: 60%;
+}
+footer{
+    background-color: white;
+  
+   display: flex;
+   justify-content: space-evenly;
+
+}
+footer a{
+   margin-right: 10px;
+    text-decoration: none;
+    color: black;
+   
+}
